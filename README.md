@@ -2,6 +2,7 @@
   <img src="./public/assets/DevSecOps.png" alt="Logo" width="100%" height="100%">
 
   <br>
+  
   <a href="http://netflix-clone-with-tmdb-using-react-mui.vercel.app/">
     <img src="./public/assets/netflix-logo.png" alt="Logo" width="100" height="32">
   </a>
@@ -17,10 +18,6 @@
 # **Youtube Video for step by step Demonstration!**
 [![Video Tutorial](https://img.youtube.com/vi/g8X5AoqCJHc/0.jpg)](https://youtu.be/g8X5AoqCJHc)
 
-
-## Susbcribe:
-[https://www.youtube.com/@cloudchamp?
-](https://www.youtube.com/@cloudchamp?sub_confirmation=1)
 
 # Deploy Netflix Clone on Cloud using Jenkins - DevSecOps Project!
 
@@ -673,14 +670,27 @@ Grafana is a powerful tool for creating visualizations and dashboards, and you c
 
 That's it! You've successfully installed and set up Grafana to work with Prometheus for monitoring and visualization.
 
+![Screenshot 2024-08-18 024214](https://github.com/user-attachments/assets/6abc8dd5-a4db-4f34-a0d0-20b96a80a91c)
+
+![Screenshot 2024-08-18 024151](https://github.com/user-attachments/assets/48b53d37-38a4-4292-b3ab-4ed3617ec1c9)
+
 2. **Configure Prometheus Plugin Integration:**
     - Integrate Jenkins with Prometheus to monitor the CI/CD pipeline.
-
 
 **Phase 5: Notification**
 
 1. **Implement Notification Services:**
     - Set up email notifications in Jenkins or other notification mechanisms.
+
+![Screenshot 2024-08-18 210420](https://github.com/user-attachments/assets/c3e73076-f3db-46d1-bc63-1b7c8574c1f3)
+
+## All Outputs: 
+
+![Screenshot 2024-08-18 024108](https://github.com/user-attachments/assets/3756d9bf-5d6a-4e47-8468-4adcf69e5f79)
+
+![Screenshot 2024-08-18 024318](https://github.com/user-attachments/assets/ab2d09ec-43b0-4518-8efd-ca0ba4f77872)
+
+![Screenshot 2024-08-18 024049](https://github.com/user-attachments/assets/c043ae13-9237-4905-ad81-4559c332067b)
 
 # Phase 6: Kubernetes
 
@@ -707,6 +717,7 @@ To begin monitoring your Kubernetes cluster, you'll install the Prometheus Node 
     ```bash
     kubectl create namespace prometheus-node-exporter
     ```
+![Screenshot 2024-08-18 021615](https://github.com/user-attachments/assets/3f51078a-56bd-4d07-9b36-7409138938ec)
 
 3. Install the Node Exporter using Helm:
 
@@ -730,6 +741,8 @@ Replace 'your-job-name' with a descriptive name for your job. The static_configs
 
 Don't forget to reload or restart Prometheus to apply these changes to your configuration.
 
+![Screenshot 2024-08-18 023346](https://github.com/user-attachments/assets/b430dc0a-947f-4f38-be5d-036a032418bc)
+
 To deploy an application with ArgoCD, you can follow these steps, which I'll outline in Markdown format:
 
 ### Deploy Application with ArgoCD
@@ -748,9 +761,23 @@ To deploy an application with ArgoCD, you can follow these steps, which I'll out
    - `project`: Specify the project the application belongs to.
    - `source`: Set the source of your application, including the GitHub repository URL, revision, and the path to the application within the repository.
    - `syncPolicy`: Configure the sync policy, including automatic syncing, pruning, and self-healing.
+  
+![Screenshot 2024-08-18 024438](https://github.com/user-attachments/assets/7024619a-b875-4442-afa2-aebaa8a3dac5)
 
 4. **Access your Application**
    - To Access the app make sure port 30007 is open in your security group and then open a new tab paste your NodeIP:30007, your app should be running.
+
+## Outputs
+
+![Screenshot 2024-08-18 024812](https://github.com/user-attachments/assets/9bf26164-f4ea-463f-9216-5218fa35cb51)
+
+![Screenshot 2024-08-18 023919](https://github.com/user-attachments/assets/ff5d26b4-fe93-401d-a582-d85219383d3f)
+
+![Screenshot 2024-08-18 180405](https://github.com/user-attachments/assets/33decdad-6cd8-4254-8c52-a98ea3d3076f)
+
+![Screenshot 2024-08-18 023414](https://github.com/user-attachments/assets/cd556ffd-cb63-467c-8324-238062f54d33)
+
+![home-page](https://github.com/user-attachments/assets/1f1fa066-22e3-46b1-8148-9946ed86d325)
 
 **Phase 7: Cleanup**
 
